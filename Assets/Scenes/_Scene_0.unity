@@ -154,7 +154,7 @@ Prefab:
     - target: {fileID: 114237639029441442, guid: 9885f318343ba2e4bbddc4d8ca80a7b7,
         type: 2}
       propertyPath: leftAndRightEdge
-      value: 30
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 114237639029441442, guid: 9885f318343ba2e4bbddc4d8ca80a7b7,
         type: 2}
@@ -218,6 +218,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aafa42daea3417447bc9feb790257ba7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  basketPrefap: {fileID: 1345850385268504, guid: 6cf48216c0b1f7e4c83e732dd2c43670,
+    type: 2}
+  numBaskets: 3
+  basketBottomY: -14
+  basketSpacingY: 2
 --- !u!81 &676450873
 AudioListener:
   m_ObjectHideFlags: 0
