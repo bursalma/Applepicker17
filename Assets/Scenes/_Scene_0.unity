@@ -303,6 +303,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1376603190}
   - component: {fileID: 1376603189}
+  - component: {fileID: 1376603191}
   m_Layer: 0
   m_Name: HighScore
   m_TagString: Untagged
@@ -346,6 +347,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1376603191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1376603188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4970685a6c557f04c8de1d9c74858ff2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1568954245
 GameObject:
   m_ObjectHideFlags: 0
